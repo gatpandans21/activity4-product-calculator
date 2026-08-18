@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Activity 4</title>
+</head>
+<body>
+    <h3>Enter Product Information</h3>
+    <form method="POST" action="compute.php">
+        Product ID: <input type="text" name="product_id"><br>
+        Product Name: <input type="text" name="product_name"><br>
+        Original Price: <input type="number" name="original_price"><br>
+        Mark Up Percentage: <input type="number" name="markup_percentage"><br>
+        Quantity: <input type="number" name="quantity"><br><br>
+        <input type="submit" value="Compute Product Price">
+    </form>
+</body>
+</html>
