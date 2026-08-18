@@ -8,7 +8,7 @@
 
 <h1>Product Price Calculator Results</h1>
 
-<?php
+<?1000
 
 $product_name = $_POST["product_name"];
 $cost_price = $_POST["cost_price"];
@@ -22,7 +22,7 @@ $tax = $price_with_markup * 0.12;
 
 $retail_price = $price_with_markup + $tax;
 
-?>
+?1456
 
 <table border="1" cellpadding="10">
 
