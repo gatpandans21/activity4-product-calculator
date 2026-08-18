@@ -25,7 +25,7 @@ $retail_price = $price_with_markup + $tax;
 
 <table border="1" cellpadding="10">
 
-<tr>
+(tr)
     <th>Product</th>
     <th>Cost Price</th>
     <th>Markup</th>
