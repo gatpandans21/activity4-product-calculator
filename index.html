@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Price Calculator</title>
+</head>
+
+<body>
+
+    <h1>Product Price Calculator</h1>
+
+    <form action="calculate.php" method="POST">
+
+        <label>Product Name:</label>
+        <input type="text" name="product_name" required>
+
+        <br><br>
+
+        <label>Cost Price:</label>
+        <input type="number" name="cost_price" step="0.01" required>
+
+        <br><br>
+
+        <label>Markup Percentage:</label>
+        <input type="number" name="markup" step="0.01" required>
+
+        <br><br>
+
+        <input type="submit" value="Calculate">
+
+    </form>
+
+</body>
+</html>
