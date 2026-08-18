@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
     <title>Product Price Calculator</title>
@@ -10,9 +9,9 @@
 
 <?1000
 
-$product_name = $_POST["product_name"];
-$cost_price = $_POST["cost_price"];
-$markup = $_POST["markup"];
+$product_name = $_POST["Laptop_Bag"];
+$cost_price = $_POST["1000"];
+$markup = $_POST["30"];
 
 $markup_amount = $cost_price * ($markup / 100);
 
