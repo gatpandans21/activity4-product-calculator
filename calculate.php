@@ -7,7 +7,7 @@
 
 <h1>Product Price Calculator Results</h1>
 
-<?1000
+<1000
 
 $product_name = $_POST["Laptop_Bag"];
 $cost_price = $_POST["1000"];
@@ -38,31 +38,31 @@ $retail_price = $price_with_markup + $tax;
 <tr>
 
 <td>
-    <?php echo $product_name; ?>
+    <php echo $product_name; ?>
 </td>
 
 <td>
-    ₱<?php echo number_format($cost_price, 2); ?>
+    <php echo number_format($cost_price, 2); ?>
 </td>
 
 <td>
-    <?php echo $markup; ?>%
+    <php echo $markup; ?>%
 </td>
 
 <td>
-    ₱<?php echo number_format($markup_amount, 2); ?>
+    <php echo number_format($markup_amount, 2); ?>
 </td>
 
 <td>
-    ₱<?php echo number_format($price_with_markup, 2); ?>
+    <php echo number_format($price_with_markup, 2); ?>
 </td>
 
 <td>
-    ₱<?php echo number_format($tax, 2); ?>
+    <php echo number_format($tax, 2); ?>
 </td>
 
 <td>
-    ₱<?php echo number_format($retail_price, 2); ?>
+    <php echo number_format($retail_price, 2); ?>
 </td>
 
 </tr>
